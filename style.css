@@ -13,6 +13,7 @@ a, button
     transition: all .3s ease-in-out;
     outline: none!important;
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover 
@@ -46,6 +47,7 @@ fieldset
     padding: 0;
     line-height: normal;
     text-align: left;
+    color: #000;
 
 }
 
@@ -57,11 +59,13 @@ fieldset
 .figcap
 {
     font-size: 18px;
+    color: #4c4c4c;
 }
 
 .title
 {
     margin-bottom: 65px;
+    color: #000;
 }
 
 .contact-footer
@@ -72,7 +76,7 @@ fieldset
 
 .contact-footer-white
 {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .bloc-btn-send
@@ -92,6 +96,35 @@ fieldset
 {
     text-align: center;
     margin-bottom: 25px;
+    color: #000;
+}
+
+.icon-md
+{
+    display: flex!important;
+    flex-direction: column;
+    color: #000!important;
+    font-size: 16px;
+}
+
+blockquote
+{
+    color: #6c6c6c;
+}
+
+.text-center-p
+{
+    color: #6c6c6c;
+}
+
+.text-center-p2
+{
+    color: #505050;
+}
+
+.p-footer
+{
+    color: #000!important;
 }
 
 #page-loading-blocs-notifaction 
@@ -839,7 +872,6 @@ a
 {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container 
@@ -899,12 +931,14 @@ p
 {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: #000;
 }
 
 h2 
 {
     font-size: 28px;
     line-height: 1.4em;
+    color: #000;
 }
 
 h3 
@@ -940,7 +974,7 @@ h4
 
 .white 
 {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .white-1
@@ -1415,6 +1449,7 @@ h4
     .white-1
     {
         font-size: 19px;
+        color: #fff!important;
     }
 
     .hero-bloc-text
@@ -1440,7 +1475,7 @@ h4
     .social
     {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
