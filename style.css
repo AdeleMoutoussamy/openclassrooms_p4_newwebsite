@@ -444,7 +444,8 @@ blockquote
 
 .navbar-brand 
 {
-    height: auto;
+    height: 40px;
+    width: 251.88px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -729,6 +730,7 @@ button
 .scrollToTop span 
 {
     margin-top: 6px;
+    color: #575757;
 }
 
 .showScrollTop 
@@ -934,6 +936,11 @@ p
     color: #000;
 }
 
+.social:hover
+{
+    color: #fff;
+}
+
 h2 
 {
     font-size: 28px;
@@ -984,6 +991,7 @@ h4
     margin-top: -15px;
     margin-bottom: 25px;
     text-align: center;
+    color: #FFF!important;
 }
 
 .portfolio-thumb 
@@ -1408,6 +1416,13 @@ h4
 }
 
 /* ======================================================================*/
+@media (min-width: 992px)
+{
+    .container
+    {
+        width: 100%;
+    }
+}
 
 @media (max-width: 775px)
 {
@@ -1449,7 +1464,6 @@ h4
     .white-1
     {
         font-size: 19px;
-        color: #fff!important;
     }
 
     .hero-bloc-text
@@ -1458,8 +1472,13 @@ h4
     }
 }
 
-@media (max-width: 390px)
+@media (max-width: 767px)
 {
+    .navbar-toggle
+    {
+        display: block;
+    }
+
     .img-rea
     {
         display: flex;
@@ -1467,16 +1486,56 @@ h4
         align-items: center;
     }
 
+    .social-footer
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-responsive
+    {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .bold-link
+    {
+        margin: 0 90px;
+    }
+}
+
+@media (max-width: 500px)
+{
     .bold-link
     {
         margin: auto;
     }
+}
 
-    .social
+@media (max-width: 418px)
+{
+    .navbar-toggle
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        float: none;
+    }
+}
+
+@media (min-width: 391px)
+{
+    .text-end
+    {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 390px)
+{
+    .bold-link
+    {
+        margin: auto;
     }
 
     .text-end
@@ -1484,14 +1543,17 @@ h4
         margin: 0 10px;
     }
 
-    .navbar-toggle
+    .img-responsive
     {
-        display: block;
+        width: 240px;
+        height: 240px;
     }
+}
 
-    .navbar-header
+@media (max-width: 750px)
+{
+    .scrollToTop
     {
-        display: flex;
-        align-items: center;
+        display: none;
     }
 }
