@@ -92,6 +92,11 @@ fieldset
     width: auto;
 }
 
+.btn-send-color
+{
+    color: #000!important;
+}
+
 .title2
 {
     text-align: center;
@@ -125,6 +130,11 @@ blockquote
 .p-footer
 {
     color: #000!important;
+}
+
+.center-block
+{
+    width: 100px;
 }
 
 #page-loading-blocs-notifaction 
@@ -922,7 +932,7 @@ p
 .cta-hero 
 {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -1056,7 +1066,7 @@ h4
 .btn-atomic-tangerine 
 {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #ffffff;
 }
 
 .btn-atomic-tangerine:hover 
@@ -1528,6 +1538,20 @@ h4
     .text-end
     {
         margin: 0 10px;
+    }
+}
+
+@media (max-width: 405px)
+{
+    .navbar-header
+    {
+        display: flex;
+    }
+    
+    .navbar-toggle
+    {
+        float: right;
+
     }
 }
 
