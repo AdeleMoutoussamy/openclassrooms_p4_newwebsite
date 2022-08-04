@@ -221,7 +221,7 @@ blockquote
 
 .texture-paper::before 
 {
-    background: url("img/texture_paper.png");
+    background: url("img/texture_paper.webp");
     background-size: 280px 280px;
 }
 
@@ -1547,7 +1547,7 @@ h4
     {
         display: flex;
     }
-    
+
     .navbar-toggle
     {
         float: right;
