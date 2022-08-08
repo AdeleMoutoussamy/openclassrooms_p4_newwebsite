@@ -115,6 +115,7 @@ fieldset
 blockquote
 {
     color: #6c6c6c;
+    border-left: none;
 }
 
 .text-center-p
@@ -1117,12 +1118,12 @@ h4
 
 .bg-banniere 
 {
-    background-image: linear-gradient(rgba(194,121,86,0.2), rgb(70,43,30,0.8)), url("img//banniere.webp");
+    background-image: url("img//banniere.webp");
 }
 
 .bg-presentation 
 {
-    background-image: linear-gradient(rgba(194,121,86,0.2), rgb(70,43,30,0.8)), url("img/image_de_presentation.webp");
+    background-image: url("img/image_de_presentation.webp");
 }
 
 @media (max-width: 1024px) 
