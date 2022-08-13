@@ -797,7 +797,6 @@ a[data-lightbox]:hover img
 
 #lightbox-modal .modal-dialog img 
 {
-    height: 550px;;
     margin: 0 auto;
 }
 
@@ -1504,7 +1503,6 @@ h4
 
     .img-responsive
     {
-        width: 320px;
         height: 320px;
     }
 
