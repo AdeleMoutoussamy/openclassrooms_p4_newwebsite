@@ -1560,6 +1560,14 @@ h4
     }
 }
 
+@media (max-width: 393px)
+{
+    .snapshot-lb .lightbox-caption 
+    {
+        bottom: -13px;
+    }
+}
+
 @media (max-width: 390px)
 {
     .bold-link
@@ -1576,6 +1584,16 @@ h4
     {
         width: 240px;
         height: 240px;
+    }
+
+    .next-lightbox
+    {
+        right: 15px;
+    }
+
+    .prev-lightbox
+    {
+        left: 13px;
     }
 }
 
